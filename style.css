@@ -298,7 +298,7 @@
   }
   .services__wrapper{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 5rem;
   }
   .services__card{
@@ -318,37 +318,71 @@
   }
   .services__card h4{
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
   .services__card p{
     font-weight:300;
     max-width:20rem;
   }
+  
   /* CLIENT */
+  
   .client{
-    padding: 5rem 0;
+    padding:5rem 0;
   }
-  .clients__title{
+  .client__title{
     text-align: center;
   }
-  .clients__title h3{
-    font-size: 5rem;
-    font-weight: 500;
-
+  .client__title h3{
+    font-size:5rem;
+    font-weight:700;
+    margin-bottom:2rem;
   }
-  .clients__title p{
+  .client__title p{
+    font-size:2rem;
+    font-weight: 300;
     margin-bottom: 2rem;
-    font-size: 1.7rem;
   }
   .client__wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30rem 30rem 30rem;
+    gap: 3rem;
+    align-content: center;
+    justify-content: center;
+   }
+   .client__people{
+    display: grid;
+    align-items: center;
+   }
+
+
+   /* PROJECT */
+   .project{
+    padding:5rem 0;
+   }
+   .project__title h3{
+    font-size:5rem;
+    font-weight:700;
+    margin-bottom:2rem;
+    text-align: center;
+   }
+   .project_title p{
+    margin-bottom:2rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    
+   }
+   .project__wrapper{
+    display: grid;
+    grid-template-columns: 30fr 30fr 30fr;
     gap: 5rem;
-  }
-  .client__people{
-     align-content: center;
-  }
-  
+   }
+   .project_cards h4{
+    
+   }
+
+   
+
   /* REPEATABLE PATTERNS */
   :root{
     --green: #7d9a68;
